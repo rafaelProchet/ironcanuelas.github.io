@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Cañuelas</title>
+    <link rel="shortcut icon" href="./Img/kb.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body style="color: aliceblue; background-color: black;">
+    <header style="text-align: center;">
+        <H1>IRON CAÑUELAS</H1>
+        <H3>Your Projects are possible</H3>
+        <nav>
+
+            <a href="./index.html">
+                <img src="./Img/kb.png" alt="Logo" width="30">
+                Inicio
+            </a>
+            <a href="./wod.html">WOD</a>
+            <a href="./Sedes.html">Sedes</a>
+            <a href="./Staff.html">Staff</a>
+            <a href="./contacto.html">Contacto</a>
+            <!-- <a href="./Productos.html">Productos</a>
+            <a href="./Administrador.html">Administrador</a>
+         <a href="./create.html">Nuevo</a>
+            <a href="./update.html">Modificar</a> -->
+
+        </nav>
+    </header>
+
+
+    <main>
+        <h4>Contacto</h4>
+        <p>Formulario de Registro: </p>
+        <form action="./show_data.html">
+            <label for="txtNombre">Nombre: </label>
+            <input type="text" name="txtNombre" id="txtNombre">
+            <br> <br>
+
+            <label for="txtApellido">Apellido: </label>
+            <input type="text" name="txtApellido" id="txtApellido">
+            <br> <br>
+
+            <label for="txtEdad">Edad: </label>
+            <input type="number" name="txtEdad" id="txtEdad" min="0" max="100">
+            <br> <br>
+
+            <label for="txtMail">Mail: </label>
+            <input type="email" name="txtMail" id="txtMail">
+            <br><br>
+
+            <label for="txtFecNac">Fecha de Nacimiento: </label>
+            <input type="date" name="txtFecNac" id="txtFecNac">
+            <br><br>
+
+            <label for="txtGene">Género: </label>
+            <input type="radio" name="txtGene" value="Hombre" checked> Hombre
+            <input type="radio" name="txtGene" value="Mujer"> Mujer
+            <input type="radio" name="txtGene" value="Otro"> Otro
+            <br><br>
+
+            <label for="txtActi">Actividad de Interés: </label>
+            <input type="checkbox" name="txtActi" value="Crossfit"> Crossfit
+            <input type="checkbox" name="txtActi" value="Ciclismo"> Ciclismo
+            <input type="checkbox" name="txtActi" value="Atletismo"> Atletismo
+            <br><br>
+
+            <label for="txtEstudios">Nivel Educativo: </label>
+            <select name="txtEstudios" id="txtEstudios">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="Superior">Superior</option>
+            </select>
+            <br><br>
+
+            <label for="txtMensaje">Mensaje: </label>
+            <p><textarea name="txtMensaje" rows="5" cols="50">Dejanos tu mensaje:</textarea></p>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+            <br><br>
+        </form>
+    </main>
+
+    <footer style="text-align: center;">
+        <br><br>
+        <nav>
+            <a href="https://www.instagram.com/">
+                <img src="./Img/Instagram.png" alt="Logo" width="30">
+                <!-- Instagram-->
+            </a>
+            <a href="https://www.twitter.com/">
+                <img src="./Img/twitter.png" alt="Logo" width="30">
+                <!--twitter-->
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="./Img/facebook.png" alt="Logo" width="30">
+                <!--facebook-->
+            </a>
+            <a href="https://www.twitch.com/">
+                <img src="./Img/twitch.png" alt="Logo" width="30">
+                <!-- twitch-->
+            </a>
+        </nav>
+        <p>Iron Cañuelas® Derechos Reservados 2022</p>
+    </footer>
+</body>
+
+</html>
